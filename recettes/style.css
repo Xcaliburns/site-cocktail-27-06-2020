@@ -1,0 +1,253 @@
+h1{
+	color: black	;
+	text-align: left;
+	font-size: 2em;
+
+}
+.titre2{
+	text-align: center;
+}
+h2{
+	
+	color:black;
+	text-align: center;
+	
+
+
+}
+h3{
+	text-align: center;
+	text-decoration: underline;
+}
+
+.recette{
+	text-align: center;
+	text-decoration: underline;
+	font-size:1.5em;
+	font-weight: bold;
+}
+
+
+p{
+	text-align: left;
+}
+
+header{
+	border-radius: 10px ;
+	border:2px #403F3C;
+	margin: 10px;
+	padding: 3px;
+	background-color#999999; 
+	/*margin-right:5%;
+	margin-left: 5%;*/
+	justify-content: center;
+	box-shadow: 0px 5px 5px 0px;
+	
+}
+
+
+/*regles pour ajuster les images*/
+img{
+
+	width:75%;
+	max-height: 150px;
+	min-height: 70px;
+
+}
+
+li{
+	padding-right:80px;
+	padding-left:150px;
+	min-width: 150px;
+}
+
+li:hover{
+	background-color :#FFFFFF;
+	border-radius: 15px;
+
+}
+
+nav{
+	text-align: center;
+}
+
+#navigation{
+	background-color: #DADADA;
+	border-radius: 10px;
+}
+
+.menuTexte{
+	color: #000000;
+	font-size: 1em;
+
+	
+}
+.cadreMenu{
+	margin: 1px;
+	padding: 5px;
+	border: 3px;
+	border-radius: 10px;
+	box-shadow:0px 5px 5px 0px;
+	background-color: #7E7E7E;
+
+
+}
+
+/*classe cadre pour factorisation*/
+.cadre{/* cadre de base*/
+	margin:5px;
+	padding: 5px;
+	border:5px solid #DADADA;
+	border-radius: 10px;
+	box-shadow:0px 5px 5px 0px;
+	background-color: #999999;
+
+
+	}
+
+/*decriptiopn des differents ID*/
+
+
+
+
+#titre_principal{
+	margin-top: 25px;
+	margin-right: auto;
+}
+
+#menu{
+	border-radius: 10px;	
+	text-align: center;
+	min-width: 100px;
+	max-width: 100px;
+}
+
+
+}
+#moteur_de_recherche{
+	
+	max-height :50px;
+	width:80%;
+	
+	margin-bottom: 50px;
+	border-radius: 10px;
+	border:5px solid #403F3C;
+	font-size:1.5em;
+}
+#bloc_position{
+	
+	margin-top: 10px;
+	margin-right: auto;
+	margin-left: auto;
+	max-width: 1000px;
+	
+	background-color:#DADADA;
+	border-radius: 20px;
+	border:10px solid white;min-width: 170px;
+	box-shadow: 0px 5px 5px 0px ;
+}
+
+	
+#fond_fixe{
+	background-color:#999999; }
+
+/* description des differentes classes d articles par categories*/
+/*creer une taille standard pour les differents lines articles*/
+/* une image taille fixe*/
+/*utilisation de pseudoclasse hover pour animer au survol de la souris*/
+/*titre en dessous*/
+/*lien vers la recette*/
+
+
+
+footer{
+	
+}
+
+#pageRecette{	
+}
+.photoCadre {	
+	
+	max-width: 300px;	
+}
+#ingredients{
+	min-width:180px; 
+}
+#ustensiles{
+}
+#preparation{
+	
+}	
+/***********************Test***********************************/
+ .navbar {
+  min-height: 80px;
+}
+.nav-item{
+
+}
+
+
+
+#interessant{
+	
+	
+}
+
+#deuxieme_bloc_recettes{
+	
+}
+
+#themes{
+	
+}
+#troisieme_bloc_recettes{
+	
+}
+
+/* description des differentes classes d articles par categories*/
+/*creer une taille standard pour les differents lines articles*/
+/* une image taille fixe*/
+/*utilisation de pseudoclasse hover pour animer au survol de la souris*/
+/*titre en dessous*/
+/*lien vers la recette*/
+
+.article{
+	background-color: #DADADA;
+	min-width: 50px;
+	width: 75%;	
+	height:200px;	
+	border-radius: 10px ;	
+	margin-left: 20px;
+	margin-right: 5px;
+	margin-top: 5px;
+	margin-bottom: 15px;
+	padding:15px;
+	padding-bottom:20px; 
+	box-shadow: 0px 5px 5px 0px #e4e0e0;
+	transform:scale(1);
+}
+.article:hover {
+	transition-property: transform;
+	transition-duration: 400ms;
+	transform: scale(1.15);
+}
+
+
+.articleVodka {
+	border:5px solid #e4e0e0;
+	
+
+}
+.articleWhisky{		
+	border-radius: 10px ;
+	
+	
+}
+
+footer{
+	margin:10px;
+	padding: 10px;
+	border:5px solid black;
+	border-radius: 5px;
+	box-shadow:0px 5px 5px 0px;
+}
